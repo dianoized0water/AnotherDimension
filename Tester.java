@@ -7,5 +7,6 @@ public class Tester{
                   { -5, -2,  2, -9 }
                };
     System.out.println(Arrays.toString(ArrayOps.sumRows(A)));
+    System.out.println(Arrays.toString(ArrayOps.largestInRows(A)));
   }
 }
