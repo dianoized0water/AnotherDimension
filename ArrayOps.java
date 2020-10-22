@@ -32,4 +32,8 @@ public class ArrayOps{
     }
     return largestMatrix;
   }
+
+  public static int sum(int[][] arr){
+    return ArrayOps.sum(ArrayOps.sumRows(arr));
+  }
 }
